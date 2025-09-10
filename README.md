@@ -1,0 +1,9 @@
+linux-dev/
+├── docker-compose.yml
+├── Dockerfile
+├── dotfiles/          # Optional preconfigured files (can still be mounted separately)
+│   ├── .tmux.conf
+│   ├── .vimrc
+│   └── .zshrc
+└── workspace/         # Your project files
+└── home/              # Persistent container home directory
