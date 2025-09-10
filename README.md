@@ -1,3 +1,5 @@
+# Folders structure
+
 linux-dev/
 ├── docker-compose.yml
 ├── Dockerfile
@@ -7,3 +9,8 @@ linux-dev/
 │   └── .zshrc
 └── workspace/         # Your project files
 └── home/              # Persistent container home directory
+
+# Run
+
+`docker compose up -d --build`
+`docker exec -it linux-dev zsh`
